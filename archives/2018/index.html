@@ -163,7 +163,7 @@
     <div class="post-list-item article">
       <h3 class="article-header">
         <a href="/2018/01/23/my-new-post-two/" >
-  从入门到入土
+  javascript
 </a>
 
       </h3>
@@ -181,13 +181,80 @@
       </div>
       <div class="article-entry">
         
-          <p>#Markdown–从入门到入土</p>
-<p>####导语</p>
+          <p>#javascript–从入门到入土</p>
+<p>##导语</p>
 <blockquote>
-<p>markdown是一种请练级的『标记语言』,它的优点很多,目前被越来越多的写作爱好者.<br><em>1 降低发发生了
-</em>2 阿萨德 大打算收到啊<br>*3 阿萨德按时的啊啊<br>引用<br><img src="http://lofter.nos.netease.com/sogou-Z0lfY2Mxb2FsQU5BMElLNTR2RHlDb2pZTGVNdDZXMzF0M3gwcGFiNzNSaW1mckVoNElDN0RvZkF5aEw5em1vLQ.jpg" alt="github"></p>
-<hr>
+<p>Javascript，一种高级编程语言，通过解释执行，是一门动态类型，面向对象（基于原型）的直译语言。它已经由欧洲电脑制造商协会通过ECMAScript实现语言的标准化。它被世界上的绝大多数网站所使用，也被世界主流浏览器（Chrome、IE、FireFox等）支持。<br>JavaScript是一门基于原型、函数先行的语言，是一门多范式的语言，它支持面向对象编程，命令式编程，以及函数式编程。它提供语法来操控文本、数组、日期以及正则表达式等，不支持I/O，比如网络、存储和图形等，但这些都可以由它的宿主环境提供支持。<br>JavaScript虽与Java有很多相似性，但这两门编程语言从设计之初就有很大的不同，JavaScript的语言设计主要受到了Self（一种基于原型的编程语言）和Scheme（一门函数式编程语言）的影响。在语法结构上它又与C语言有很多相似（例如if条件语句、while循环、switch语句、do-while循环等）。</p>
+<h2 id="一、查找HTML元素"><a href="#一、查找HTML元素" class="headerlink" title="一、查找HTML元素"></a>一、查找HTML元素</h2><p>通常，通过 JavaScript，您需要操作 HTML 元素。</p>
 </blockquote>
+<p>*　1、通过 id 找到 HTML 元素</p>
+<p>*　2、通过标签名找到 HTML 元素</p>
+<p>*　3、通过类名找到 HTML 元素</p>
+<p>提示：通过类名查找 HTML 元素在 IE 5,6,7,8 中无效</p>
+<h2 id="二、DOM-事件"><a href="#二、DOM-事件" class="headerlink" title="二、DOM 事件"></a>二、DOM 事件</h2><ul>
+<li><p>Js中的事件</p>
+<p>  行为,结构,样式分离的页面</p>
+<p>  一般事件 onclick 鼠标点击时触发此事件</p>
+<p>  ondblclick 鼠标双击时触发此事件<br>  onmousedown 按下鼠标时触发此事件<br>  onmouseup 鼠标按下后松开鼠标时触发此事件<br>  onmouseover 当鼠标移动到某对象范围的上方时触发此事件<br>  onmousemove 鼠标移动时触发此事件<br>  onmouseout 当鼠标离开某对象范围时触发此事件<br>  onkeypress 当键盘上的某个键被按下并且释放时触发此事件.<br>  onkeydown 当键盘上某个按键被按下时触发此事件<br>  onkeyup 当键盘上某个按键被按放开时触发此事件</p>
+</li>
+</ul>
+<hr>
+<p>####事件触发总结：<br>1、onmousedown<br>定义：onmousedown事件会在鼠标按键被按下时发生</p>
+<p>2、onmouseup<br>定义：onmouseup事件会在鼠标按键被松开时发生</p>
+<p>3、onmousemove<br>定义：onmousemove事件会在鼠标指针移动时发生<br>支持该事件的js对象：document<br>但是onmousemove默认情况下没有任何对象的一个事件；<br>因为鼠标移动频繁发生。</p>
+<p>4、onmouseover<br>定义：onmouseover事件会在鼠标指针移动到指定的对象上时发生</p>
+<p>5、onmouseout<br>定义：onmouseout事件会在鼠标指针移出指定的对象时发生</p>
+<p>6、onclick单击事件<br>定义：onclick事件和onmousedown不同。单击事件是在同一元素上发生了<br>鼠标按下时间之后发生了鼠标放开时间是发生的。<br>理解：鼠标按下抬起以后事件才发生。</p>
+<p>7、onfocus光标移入事件<br>定义：onfocus事件在对象获得焦点时发生</p>
+<p>8、onblur光标移出事件<br>定义：onblur事件会在对象失去焦点时发生</p>
+<p>9、oncontextmenu右键事件<br>鼠标按下右键的时候发生</p>
+<p>10、onsubmit<br>onsubmit事件会在表单中的确认按钮（submit）被<br>点击是发生。</p>
+<p>11、onkeydown<br>onkeydown事件会在用户按下一个键盘按键时发生</p>
+<p>12、onkeyup<br>obkeyup事件会在键盘按键被松开时发生</p>
+<p>13、onload<br>onload事件会在页面或图像加载完成后立即发生</p>
+<p>14、onscroll<br>onscroll事件拖动滚动条时发生</p>
+<p>15、onresize<br>onresize事件会在窗口或框架被调整大小时发生</p>
+<p>16、onmousewheel<br>onmousewheel事件ie、chrome下鼠标滚轮滚动时发生</p>
+<p>17、DOMMouseScroll<br>DOMMouseScroll事件是标准下（ff)鼠标滚轮事件，<br>鼠标滚轮滚动时发生</p>
+<p>18、onreadystatechange<br>onreadystatechange事件：当请求被发送到服务器时；<br>我们需要执行一些基于响应的任务。每当readyState<br>改变时，就会触发onreadystatechange事件。<br>readyState属性存有XMLHttpRequest的状态信息。<br>在onreadystatechange事件中，我们规定当服务器响应<br>已做好被处理的准备时所执行的任务。</p>
+<p>19、attachEvent绑定事件<br>ie下的绑定事件，2个参数，第一个什么事件，第二个执<br>行函数（倒序执行）。注意this指向<br>如：obj。attachEvent（‘onclick’，aaa）<br>function aaa（）{}</p>
+<p>20、addEventListener绑定事件<br>标准下的绑定事件，3个参数。1什么事件（不加ON），<br>2执行函数 3、一个布尔值。true是捕获阶段，false是<br>冒泡阶段</p>
+<p>21、event对象指事件的状态</p>
+<p>简单的：一个 存了 事件详细信息的东西</p>
+<p>网上较专业的：Event对象代表事件的状态，比如事件在其中发生的元素<br>键盘按键的状态，鼠标的位置，鼠标按钮的状态，通常<br>与函数结合使用。</p>
+<p>22、clientX、clientY<br>在Event对象下获取鼠标位置</p>
+<p>23、cancelBubble =true<br>在Event对象下取消冒泡事件</p>
+<p>24、keyCode<br>在Event对象下获取用户按下键盘的哪个按键</p>
+<p>25、preventDefault（）<br>阻止默认默认事件的绑定写法</p>
+<p>26、return false<br>阻止默认时间的普通写法</p>
+<p>二、DOM 27-46<br>27、getElementById<br>通过id获取某一个元素</p>
+<p>28、getElementsByTagName<br>通过标签名获取一组元素的集合</p>
+<p>29、childNodes<br>获取子节点，但是标准下会获取空白节点<br>获取第一级子元素的节点</p>
+<p>30、nodeType<br>节点类型<br>1）元素节点（标签）2）文本节点（空白节点）</p>
+<p>31、children<br>获取子节点，但是没有兼容性问题<br>获取第一级子元素的节点</p>
+<p>32、firstElementChild || firstChild<br>标准下：firstElementChild ie不支持<br>ie下是 firstChild<br>获取子元素里的第一个</p>
+<p>33、lastElementChild || lastChild<br>标准下：lastElementChild ie不支持<br>ie下是 lastChild<br>获取子元素里的最后一个</p>
+<p>34、nextElementSibling || nextSibling<br>标准下：nextElementSibling ie不支持<br>ie下 nextSibling<br>获取子指定元素的下一个兄弟节点</p>
+<p>35、previousElementSibling || previousSibling<br>标准下： previousElementSibling ie不支持<br>id：previousSibling<br>获取指定元素的上一个兄弟节点</p>
+<p>36、parentNode<br>获取父节点</p>
+<p>37、offsetParent<br>获取有定位的父节点，都没有定位的话父节点就是body</p>
+<p>38、offsetWidth—–有问题<br>获取元素的实际宽度（width+padding+border）</p>
+<p>39、offsetHeight<br>获取元素的高度（height+padding+border）</p>
+<p>40、clientWidth<br>获取元素的内部宽度（width+padding）</p>
+<p>41、clientHeight<br>获取元素的内部高度（height+padding）</p>
+<p>42、createElement（标签名）<br>创建一个节点</p>
+<p>43、appendchild（节点）<br>追加一个节点</p>
+<p>44、insertBefore（节点，原有节点）<br>在已有的元素前面插入</p>
+<p>45、removeChild（节点）<br>删除一个节点</p>
+<p>46、replaceChild（节点，已有节点）<br>替换已有的节点</p>
+<p>三、BOM操作： 47-53<br>47、window。open（）<br>打开窗口</p>
+<p>48、window。close（）<br>关闭窗口,标准下不支持</p>
+<p>49、window。location<br>获取浏览器地址</p>
+<p>50、window。location。href<br>获取整体的网址</p>
+<p>51、window。location。search<br>获取问号？后面的内容，包括问号</p>
+<p>52、window。location。hash<br>获取警号#后面的内容，包括警号</p>
+<p>53、window。location。reload（）<br>自动刷新，定时器配合</p>
+<p>53、window。navigator。userAgent<br>获取浏览器信息</p>
 
         
       </div>
