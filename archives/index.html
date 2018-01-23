@@ -181,24 +181,31 @@
       </div>
       <div class="article-entry">
         
-          <p>#javascript–从入门到入土</p>
-<p>##导语</p>
-<blockquote>
+          <h1 id="javascript–从入门到入土"><a href="#javascript–从入门到入土" class="headerlink" title="javascript–从入门到入土"></a>javascript–从入门到入土</h1><h2 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h2><blockquote>
 <p>Javascript，一种高级编程语言，通过解释执行，是一门动态类型，面向对象（基于原型）的直译语言。它已经由欧洲电脑制造商协会通过ECMAScript实现语言的标准化。它被世界上的绝大多数网站所使用，也被世界主流浏览器（Chrome、IE、FireFox等）支持。<br>JavaScript是一门基于原型、函数先行的语言，是一门多范式的语言，它支持面向对象编程，命令式编程，以及函数式编程。它提供语法来操控文本、数组、日期以及正则表达式等，不支持I/O，比如网络、存储和图形等，但这些都可以由它的宿主环境提供支持。<br>JavaScript虽与Java有很多相似性，但这两门编程语言从设计之初就有很大的不同，JavaScript的语言设计主要受到了Self（一种基于原型的编程语言）和Scheme（一门函数式编程语言）的影响。在语法结构上它又与C语言有很多相似（例如if条件语句、while循环、switch语句、do-while循环等）。</p>
-<h2 id="一、查找HTML元素"><a href="#一、查找HTML元素" class="headerlink" title="一、查找HTML元素"></a>一、查找HTML元素</h2><p>通常，通过 JavaScript，您需要操作 HTML 元素。</p>
 </blockquote>
-<p>*　1、通过 id 找到 HTML 元素</p>
-<p>*　2、通过标签名找到 HTML 元素</p>
-<p>*　3、通过类名找到 HTML 元素</p>
-<p>提示：通过类名查找 HTML 元素在 IE 5,6,7,8 中无效</p>
-<h2 id="二、DOM-事件"><a href="#二、DOM-事件" class="headerlink" title="二、DOM 事件"></a>二、DOM 事件</h2><ul>
-<li><p>Js中的事件</p>
-<p>  行为,结构,样式分离的页面</p>
-<p>  一般事件 onclick 鼠标点击时触发此事件</p>
-<p>  ondblclick 鼠标双击时触发此事件<br>  onmousedown 按下鼠标时触发此事件<br>  onmouseup 鼠标按下后松开鼠标时触发此事件<br>  onmouseover 当鼠标移动到某对象范围的上方时触发此事件<br>  onmousemove 鼠标移动时触发此事件<br>  onmouseout 当鼠标离开某对象范围时触发此事件<br>  onkeypress 当键盘上的某个键被按下并且释放时触发此事件.<br>  onkeydown 当键盘上某个按键被按下时触发此事件<br>  onkeyup 当键盘上某个按键被按放开时触发此事件</p>
-</li>
-</ul>
-<hr>
+<h3 id="一、查找HTML元素"><a href="#一、查找HTML元素" class="headerlink" title="一、查找HTML元素"></a>一、查找HTML元素</h3><p>通常，通过 JavaScript，您需要操作 HTML 元素。</p>
+<pre><code>1、通过 id 找到 HTML 元素
+
+2、通过标签名找到 HTML 元素
+
+3、通过类名找到 HTML 元素
+</code></pre><p>提示：通过类名查找 HTML 元素在 IE 5,6,7,8 中无效</p>
+<h2 id="二、DOM-事件"><a href="#二、DOM-事件" class="headerlink" title="二、DOM 事件"></a>二、DOM 事件</h2><p>Js中的事件</p>
+<pre><code>行为,结构,样式分离的页面
+
+一般事件 onclick 鼠标点击时触发此事件
+
+ondblclick 鼠标双击时触发此事件
+onmousedown 按下鼠标时触发此事件
+onmouseup 鼠标按下后松开鼠标时触发此事件
+onmouseover 当鼠标移动到某对象范围的上方时触发此事件
+onmousemove 鼠标移动时触发此事件
+onmouseout 当鼠标离开某对象范围时触发此事件
+onkeypress 当键盘上的某个键被按下并且释放时触发此事件.
+onkeydown 当键盘上某个按键被按下时触发此事件
+onkeyup 当键盘上某个按键被按放开时触发此事件
+</code></pre><hr>
 <p>####事件触发总结：<br>1、onmousedown<br>定义：onmousedown事件会在鼠标按键被按下时发生</p>
 <p>2、onmouseup<br>定义：onmouseup事件会在鼠标按键被松开时发生</p>
 <p>3、onmousemove<br>定义：onmousemove事件会在鼠标指针移动时发生<br>支持该事件的js对象：document<br>但是onmousemove默认情况下没有任何对象的一个事件；<br>因为鼠标移动频繁发生。</p>
@@ -254,7 +261,83 @@
 <p>51、window。location。search<br>获取问号？后面的内容，包括问号</p>
 <p>52、window。location。hash<br>获取警号#后面的内容，包括警号</p>
 <p>53、window。location。reload（）<br>自动刷新，定时器配合</p>
-<p>53、window。navigator。userAgent<br>获取浏览器信息</p>
+<p>53、window。navigator。userAgent<br>获取浏览器信息<br>四、js基础： 54-126<br>54、if else 如果。。。。否则。。。</p>
+<p>55、switch 如果</p>
+<p>56、？： 三木，就是如果。。。否则。。。</p>
+<p>57、for（）{} for循环</p>
+<p>58、for in</p>
+<p>59、while=for</p>
+<p>60、continue 终止本次循环<br>if（i=2）continue 跳过这个条件</p>
+<p>61、break 终止当前循环<br>if(i=3)break 结束本次</p>
+<p>62、undefined 未定义</p>
+<p>63、null=========？</p>
+<p>64、=== 只比较，不转换类型</p>
+<p>65、== 不仅比较，而且还会将两个东西转换成相同的类型</p>
+<p>66、= 赋值</p>
+<p>67、！ 就是 不 的意思</p>
+<p>68、setTimeout<br>设置定时器，2秒钟后，执行一次，并且只执行一次，—定时炸弹</p>
+<p>69、clearTimerout<br>清楚定时器，清理setTimerout</p>
+<p>70、setInterval<br>设置定时器，每两秒执行一次</p>
+<p>71、clearInterval<br>清楚定时器，清理setInterval</p>
+<p>72、arguments<br>实参的元素集合</p>
+<p>73、call<br>改变this取向<br>fn名.call（this，‘black’）第一个参数是函数之行的环境，<br>从第二个参数开始，才是函数的真正参数</p>
+<p>oDiv.onclick = function(){<br>toChange.call(this,’black’);<br>};<br>function toChange(sColor){<br>this.style.background = sColor;<br>}</p>
+<p>74、apply<br>改变this取向，<br>function show(a, b)<br>{<br>alert(‘this是：’+this+’\na是：’+a+’\nb是：’+b);<br>}<br>show(12, 8);<br>show.apply(document, [12, 8]);<br>第二个参数是以数组形势存在的</p>
+<p>75、callee ===============？调用这个函数自身的</p>
+<p>76、var arr=【】； 声明一个数组</p>
+<p>77、var arr=new Array（） 声明一个数组</p>
+<p>78、push<br>向数组的末尾添加一个或更多元素，并返回新的长度</p>
+<p>79、pop<br>删除数组最后一个元素，并返回这个元素</p>
+<p>80、shift<br>删除数组第一个元素，并返回这个元素</p>
+<p>81、unshift<br>向数组的开头添加一个或多个元素，并返回新的长度</p>
+<p>82、splice<br>删除元素，并向数组添加新的元素</p>
+<p>83、join（）<br>把数组的所有元素放入一个字符串。元素通过指定<br>的分隔符进行分隔</p>
+<p>84、sort（）<br>对数组的元素进行排序</p>
+<p>85、concent—-concat（）？<br>连接两个数组或者多个数组，并返回结果</p>
+<p>86、split<br>分割字符串，获得数组</p>
+<p>87、substring<br>获取字符串<br>包括开始不包括结束</p>
+<p>88、indexOf<br>从前往后检索字符串</p>
+<p>89、charAt<br>获取某个字符</p>
+<p>90、var re=//； 声明一个正则对象</p>
+<p>91、var re=new RegExp() 声明一个正则对象</p>
+<p>92、search 查找一个字符串，只找第一次出现的位置</p>
+<p>93、month ===============？<br>match-匹配符合正则的东西，挑东西返回数组</p>
+<p>94、test 用正则检验字符串是否符合它所规定的规则</p>
+<p>95、replace 替换，把符合规则的东西替换成字符串</p>
+<p>96、量词：{n，m}至少出现n次，最多出现m次<br>+许多 </p>
+<ul>
+<li>{0,} 0到任意次<br>？零次或者一次{0,1}<br>{n，}最少n次，最多不限<br>{，m}最少不限最多m次<br>{n}正好n次</li>
+</ul>
+<p>97、字符类：<br>1[abc]2 1和2中间出现a或b或c<br>[^0-9]排除数字以外所有都可以<br>[a-z]所有的英文<br>[0-9]所有的数字</p>
+<p>98、标识： i 忽略大小写 g 全局匹配</p>
+<p>99、首尾： ^ $</p>
+<p>100、转义：<br>\d 查找数字 [0-9]<br>\D 除了数字[^0-9]<br>\s 空白<br>\b 单词边界<br>\w 数字字母下划线–用户名<br>. 任意字符<br>. 代表.本身</p>
+<p>101、var oDate= new Date（） 获取当前时间</p>
+<p>102、getHours（） 获取小时</p>
+<p>103、getMinutes（） 获取分钟</p>
+<p>104、getSeconds（） 获取秒</p>
+<p>105、getFullYear（） 获取年</p>
+<p>106、getDay（） 获取星期</p>
+<p>107、getDate（） 获取当前的时间日期</p>
+<p>108、setDate（） 设置一个月的某一天</p>
+<p>109、var oImg=new Image（） 创建一个image对象</p>
+<p>110、什么叫ajax<br>通过XMLHttpRequest与服务器通信，进行无刷新操作</p>
+<p>ajax采用的是异步请求</p>
+<p>111、同步与异步的区别</p>
+<p>同步就是同一时间做一件事<br>异步就是同一时间做多件事</p>
+<p>112、ajax的交互方式<br>1）发送数据并返回 （）（注册）<br>2）只发送不返回 （）========？例子<br>3）不发送只返回 （股票）</p>
+<p>113、post与get的区别<br>1）发送方式不一样：get加载网址问好后面的<br>post把数据放在一个传输体中发送上去的</p>
+<p>2）安全不一样<br>post相对安全，get不安全</p>
+<p>3）网址长度不一样<br>ie下get网址超过2048字节将被截断<br>post没有上限</p>
+<p>4）缓存问题<br>get可以缓存网址，post不会缓存网址</p>
+<p>5）用途不一样<br>get：查询数据，post修改数据</p>
+<p>114、发送数据是什么样的？<br>串联化数据：key1=value1&amp;key2=value2</p>
+<p>115、返回数据是什么样的？<br>返回的是字符串</p>
+<p>116、跨域：jsonp？<br>（利用script标签跨域）<br>在头部创建个script标签，<br>改变script标签中src</p>
+<p>117、ajax的编写步骤？<br>1）创建ajax对象（要有手机）<br>2）链接服务器open（拨号）<br>3）监听数据返回onreadystatechange（听）<br>4）发送数据send（说）<br>5）close（忽略）（挂了）</p>
+<p>118、json怎么取？=========？<br>通过串联化数据</p>
+<p>119、什么是对象？<br>对象是一个整体，对外提供一些操作。||<br>黑盒子，看不到内部的样子，<br>能看到表面的按钮</p>
+<p>120、什么是面向对象？<br>使用对象时，只关注对象提供的功能，<br>不关注其内部细节，比如jQuery ||<br>使用一个东西的时候，不去管内部是<br>怎么做的，只用好它的功能</p>
 
         
       </div>
